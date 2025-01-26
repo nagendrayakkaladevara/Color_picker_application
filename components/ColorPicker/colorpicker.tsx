@@ -113,10 +113,8 @@ const ColorPicker: React.FC = () => {
 
     return (
         <Card className="w-fit mx-auto">
-            <CardHeader>
-                {/* <CardTitle>Image Color Picker</CardTitle> */}
-            </CardHeader>
-            <CardContent className='md:flex justify-around gap-10 block'>
+           
+            <CardContent className='md:flex justify-around gap-10 block '>
 
                 <div>
                     <Input
