@@ -2,7 +2,6 @@
 
 import { Spotlight } from "@/components/ui/spotlight";
 import ColourfulText from "@/components/ui/colourful-text";
-import { useRef, useState } from "react";
 import ColorPicker from "../ColorPicker/colorpicker";
 
 const LandingPage = () => {
