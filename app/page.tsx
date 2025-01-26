@@ -1,11 +1,11 @@
-import Canvas from "@/components/ColorPicker/Canvas";
 import LandingPage from "@/components/screens/landingpage";
+import Footer from "@/components/ui/footer";
 
 export default function Home() {
   return (
     <>
       <LandingPage />
-      {/* <Canvas /> */}
+      <Footer />
     </>
   );
 }

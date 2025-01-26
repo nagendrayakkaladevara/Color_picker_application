@@ -6,6 +6,32 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* For Webkit Browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 0; /* Removes the scrollbar width */
+  height: 0; /* Removes the horizontal scrollbar height */
+}
+
+::-webkit-scrollbar-thumb {
+  background: transparent; /* Hides the scrollbar thumb */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Hides the scrollbar track */
+}
+
+/* For Firefox */
+* {
+  scrollbar-width: none; /* Disables scrollbar */
+  scrollbar-color: transparent transparent; /* Hides both track and thumb */
+}
+
+/* For Internet Explorer and Edge Legacy */
+body {
+  -ms-overflow-style: none; /* Disables scrollbar */
+}
+
+
 @layer base {
   :root {
     --background: 0 0% 100%;
