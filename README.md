@@ -1,36 +1,19 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Image Color Picker
 
-## Getting Started
 
-First, run the development server:
+A modern Image Color Picker application built with `Next.js`, `TypeScript`, `Tailwind CSS`, and `ShadCN`. This tool allows users to upload an image, click on a point to pick a color, and retrieve its corresponding `HEX`, `RGB`, and `HSL` codes. The application provides a sleek UI and features such as zooming, panning, and displaying the selected color.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Image Upload**: Upload any image to pick colors from.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Color Picker**: Click on any part of the image to fetch its color code.
 
-## Learn More
+- **Color Code Formats**: View selected color in HEX, RGB, and HSL.
 
-To learn more about Next.js, take a look at the following resources:
+- **Zoom and Pan**: Zoom in/out and pan across the image for precision.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Live Preview**: Display the selected color visually.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Responsive Design**: Fully responsive for all devices.
